@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock-Paper-Scissors</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="game_style.css">
 </head>
 <body>
-    <div class="container"></div>
+    <h1>Rock-Paper-Scissors</h1>
+    <div class="options">
+        <div class="element" id="rock"><img src="rock-image.jpg" alt="rock-image"></div>
+    <div class="element" id="paper"><img src="paper-image.jpg" alt="paper-image"></div>
+    <div class="element" id="scissors"><img src="scissors-image.jpg" alt="scissors-image"></div>
+    </div>
+    <div class="score-board">
+        <div class="user">
+            <p>You</p>
+            <p id="user-score">0</p>
+        </div>
+        <div class="comp">
+            <p>Comp</p>
+            <p id="comp-score">0</p>
+        </div>
+        </div>
+        <div class="msg">
+            <div>Play Now</div>
+        </div>
+    </div>
+    <script src="game_logic.js"></script>
 </body>
 </html>
